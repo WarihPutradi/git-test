@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item {
+    font-size: 0.8 rem !important;
+    padding-left: 2rem;
+}
+
+.wrapper {
+    margin-left: 7em !important;
+    margin-right: 7rem !important;
+}
+
+.navbar {
+    z-index: 99;
+    width: 100vw;
+    position: fixed;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+/* .navbar:hover {
+    opacity: 1;
+} */
+
+.jumbotron {
+    align-content: center;
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: auto;
+    color: aliceblue;
+    height: 90vh !important;
+    width: 100vw !important;
+    background-image: url('img/1s.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin-bottom: 0 !important;
+}
+
+.jumbotron hr {
+    border-color: aliceblue;
+}
+
+@media(min-width:768px) {
+    .container {
+        position: relative;
+    }
+    .dss {
+        position: absolute;
+        margin-top: -15%;
+        margin-left: 33vw;
+        width: 18rem;
+        z-index: 8;
+    }
+}
+
+.navbar {
+    background-color: none !important;
+}
+
+@media(max-width:768px) {
+    .wrapper {
+        text-align: center;
+        margin: 1rem !important;
+        padding: 1rem !important;
+    }
+    .card {
+        margin-bottom: 2rem !important;
+    }
+}
+
+.card-deck .card {
+    background-color: #fafafa;
+}
+
+.locks {
+    margin-left: 8rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5rem;
+}
+
+.locks h1 {
+    grid-column: 1 / 4;
+    margin: 4rem 0;
+    text-align: center;
+    margin-left: -2rem;
+}
+
+.fals {
+    background-color: rgba(0, 0, 0, 0);
+    height: 5rem;
+    width: 9rem;
+    border: 2px solid #eaeaea;
+    position: absolute;
+    left: 15%;
+    /* transform: translate(-50%); */
+}
+
+.pright {
+    text-align: left;
+}
+
+.pright p {
+    text-align: justify;
+}
+
+.pleft {
+    text-align: justify;
+}
